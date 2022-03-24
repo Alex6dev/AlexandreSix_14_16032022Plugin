@@ -1,6 +1,12 @@
 {
   "name": "plugin_modal_react",
   "version": "0.1.0",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.4",
@@ -9,9 +15,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build-examples": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "build":"rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
   },
   "peerDependencies": {
     "react": "^17.0.2",
@@ -38,15 +45,10 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "react-dom": "^17.0.2",
+    "react-scripts": "1.1.4"
   },
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "private": false,
-  "files": [
-    "dist",
-    "README.md"
-  ],
+  
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "author": "",
   "license": "ISC"
