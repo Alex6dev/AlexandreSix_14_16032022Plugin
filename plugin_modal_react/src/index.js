@@ -13,8 +13,8 @@ const App = () =>{
             <p>Hello</p>
             <button type="button" onClick={()=>setEtatDisplay(!etatDisplay)}>click ici</button>
             {etatDisplay && <Modal >
-                    <ModalContent type={"information"}>
-                        <ModalTittle>Tittle<ModalIcons type={"information"}/></ModalTittle>
+                    <ModalContent type={"warning"}>
+                        <ModalTittle>Tittle<ModalIcons type={"warning"}/></ModalTittle>
                         <ModalText>informative text </ModalText>
                         <ModalExit etat={etatDisplay} set={setEtatDisplay}>button exit</ModalExit>
                     </ModalContent>
