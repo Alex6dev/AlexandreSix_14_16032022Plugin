@@ -8,13 +8,13 @@ here is a library allowing to create a react component as a functionality to dis
 ### 1-2 Visuel modal
 
 - Modal success:
-<img src='https://github.com/Alex6dev/AlexandreSix_14_16032022Plugin/plugin_modal_react/blob/main/src/assets/modalsuccess.png' alt="screenshot"/>
+<img src='https://github.com/Alex6dev/AlexandreSix_14_16032022Plugin/blob/main/plugin_modal_react/assets/modalSuccess.png' alt="screenshot"/>
 
 - Modal information:
-<img src='https://github.com/Alex6dev/AlexandreSix_14_16032022Plugin/plugin_modal_react/blob/main/src/assets/modalsuccess.png' alt="screenshot"/>
+<img src='https://github.com/Alex6dev/AlexandreSix_14_16032022Plugin/blob/main/plugin_modal_react/assets/modalInformation.png' alt="screenshot"/>
 
 - Modal warning:
-<img src='https://github.com/Alex6dev/AlexandreSix_14_16032022Plugin/plugin_modal_react/blob/main/src/assets/modalsuccess.png' alt="screenshot"/>
+<img src='https://github.com/Alex6dev/AlexandreSix_14_16032022Plugin/blob/main/plugin_modal_react/assets/modalWarning.png' alt="screenshot"/>
 
 ## 2- Project 
 
@@ -24,7 +24,7 @@ here is a library allowing to create a react component as a functionality to dis
 - JS
 - [React](https://fr.reactjs.org/)
 - Icons [Font Awesome](https://fontawesome.com/)
-- FONT[Google Fonts](https://fonts.google.com/)
+- Font[Google Fonts](https://fonts.google.com/)
 
 ### 2-2 Launching the project
 
@@ -36,7 +36,7 @@ $ yarn add plugin_modal_react
 
 ### plugin operation
 
-**Import script in <head>:**
+**Import script in html:**
 ```html
 <link
     rel="stylesheet"
@@ -78,11 +78,9 @@ const [etatDisplay,setEtatDisplay]=useState(false)
 - type: *string* indicates what type of modal we want ` ["information","success","warning"] `
 
 **`<ModalIcons/>` params:**
-- type: *string*indicate which icon we want ` ["information","success","warning"] `
+- type: *string* indicate which icon we want ` ["information","success","warning"] `
 
 **`<ModalExit/>` params:**
 - etat: *state* indicates the state of the display state
 - set: *function* the function to change the display state
 
-### More about this plugin
-To know more about this plugin or on my work, do not hesitate to contact me on my main networks
