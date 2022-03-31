@@ -1,4 +1,4 @@
-# AlexandreSix_14_16032022Plugin
+# Wealth Health Plugin Modal React
 
 ## 1- Description
 
